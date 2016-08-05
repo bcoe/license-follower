@@ -1,0 +1,26 @@
+{
+  "name": "license-follower",
+  "version": "1.0.0",
+  "description": "follow the registry, analyze license information",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcoe/license-follower.git"
+  },
+  "keywords": [
+    "license",
+    "follower"
+  ],
+  "author": "Ben Coe <ben@npmjs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcoe/license-follower/issues"
+  },
+  "homepage": "https://github.com/bcoe/license-follower#readme",
+  "dependencies": {
+    "changes-stream": "^1.1.0"
+  }
+}
